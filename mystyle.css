@@ -1,10 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: wheat;
     color: black;
 }
 
+header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+p {
+    margin: 20px
+}
+
 h1,h2,h3,h4,h5,h6 {
     color: blue;
+    margin: 15px 10px;
+
 }
 
 a:link {
@@ -22,4 +40,29 @@ a:hover {
 #dale-profile {
     border-radius: 50%;
     border: solid;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+a {
+    font-size: 12px;
+}
+
+ol {
+    color:darkslategrey;
+    margin: 15px 30px;
+}
+
+ul {
+    color:indigo;
+    margin: 15px 30px;
+}
+
+img {
+    margin: 25px;
+}
+
+.links {
+    font-size: 12px;
 }
