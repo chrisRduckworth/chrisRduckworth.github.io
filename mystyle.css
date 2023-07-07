@@ -62,7 +62,9 @@ ul {
 
 img {
     margin: 25px;
-    size: auto
+    max-width: 100%;
+    max-height: auto;
+    object-fit: contain;
 }
 
 .links {
