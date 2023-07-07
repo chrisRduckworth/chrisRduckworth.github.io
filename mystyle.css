@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 600px;
 }
 
 body {
@@ -61,8 +62,32 @@ ul {
 
 img {
     margin: 25px;
+    size: auto
 }
 
 .links {
     font-size: 12px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: darkcyan;
+    padding: 10px;
+    margin: 30px;
+}
+
+.grid-item {
+    text-align: center;
+    font-size: auto;
+    background-color:lightblue;
+    padding: 20px;
+}
+
+#grid-header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 100;
 }
