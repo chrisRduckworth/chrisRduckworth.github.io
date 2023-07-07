@@ -1,0 +1,25 @@
+body {
+    background-color: wheat;
+    color: black;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: blue;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color:deeppink;
+}
+
+a:hover {
+    color: deepskyblue;
+}
+
+#thumbs-up {
+    border-radius: 50%;
+    border: solid;
+}
