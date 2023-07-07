@@ -83,11 +83,11 @@ img {
     text-align: center;
     font-size: auto;
     background-color:lightblue;
-    padding: 20px;
+    padding: 10px;
 }
 
 #grid-header{
     grid-column-start: 1;
     grid-column-end: 3;
-    font-size: 100;
+    font-size: 30px;
 }
