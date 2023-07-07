@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     max-width: 600px;
+    box-sizing: border-box;
 }
 
 body {
@@ -64,7 +65,7 @@ img {
     margin: 25px;
     max-width: 100%;
     max-height: auto;
-    object-fit: contain;
+    object-fit: scale-down;
 }
 
 .links {
