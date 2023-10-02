@@ -1,0 +1,39 @@
+.headerTabContainer {
+  display: flex;
+  background-color: #252526;
+  overflow: auto;
+}
+
+header > h1 {
+  background-color: #333333;
+  padding: 0.5em;
+}
+
+.activeTab,
+.activeTab:link,
+.activeTab:visited {
+  color: #fafaff;
+  background-color: #1e1e1e;
+  text-decoration: none;
+}
+
+.inactiveTab,
+.inactiveTab:link,
+.inactiveTab:visited {
+  color: #a9a9a9;
+  background-color: #2d2d2d;
+  text-decoration: none;
+  border-right: 2px solid #252526;
+}
+
+.activeTab,
+.inactiveTab {
+  padding: 0.7em clamp(1.5em, 5%, 3em);
+  white-space: nowrap;
+}
+
+.headerURL {
+  box-shadow: 0 0 5px black;
+  clip-path: inset(0 0 -5px 0);
+  padding: 0.5em 1em;
+}

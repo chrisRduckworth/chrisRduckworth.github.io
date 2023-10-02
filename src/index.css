@@ -1,0 +1,13 @@
+html {
+  background-color: #1e1e1e;
+}
+
+body {
+  font-family: consolas, 'Courier New', monospace;
+  color: #fafaff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
