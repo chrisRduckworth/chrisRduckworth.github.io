@@ -15,6 +15,7 @@ header > h1 {
   color: #fafaff;
   background-color: #1e1e1e;
   text-decoration: none;
+  border-right: 2px solid #1e1e1e;
 }
 
 .inactiveTab,

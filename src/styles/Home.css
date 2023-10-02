@@ -1,0 +1,11 @@
+.homeSection {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.homeSubheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
