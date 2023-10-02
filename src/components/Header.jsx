@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { HeaderContext } from "../contexts/HeaderContext";
 import { Link } from "react-router-dom";
-import "./Header.css";
+import "../styles/Header.css";
 
 function Header() {
   const { header } = useContext(HeaderContext);
@@ -16,7 +16,7 @@ function Header() {
         <Link to="/skills" className={header.tab === "Skills" ? "activeTab" : "inactiveTab"}>Skills</Link>
         <Link to="/projects" className={header.tab === "Projects" ? "activeTab" : "inactiveTab"}>Projects</Link>
         <Link to="/about-me" className={header.tab === "About Me" ? "activeTab" : "inactiveTab"}>About Me</Link>
-        <Link to="contact" className={header.tab === "Contact" ? "activeTab" : "inactiveTab"}>Contact</Link>
+        <Link to="/contact" className={header.tab === "Contact" ? "activeTab" : "inactiveTab"}>Contact</Link>
       </div>
       <p className="headerURL">
         {header.url}
