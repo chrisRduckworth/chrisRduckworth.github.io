@@ -1,0 +1,13 @@
+footer {
+  text-align: center;
+  margin: 3em 0 1em;
+}
+
+footer a:link,
+footer a:visited {
+  color: #a9a9a9;
+  transition: 0.25s ease-out;
+  &:hover {
+    color: #fafaff;
+  }
+}
