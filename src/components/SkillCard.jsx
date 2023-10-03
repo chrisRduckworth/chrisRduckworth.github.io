@@ -11,7 +11,7 @@ function SkillCard({ skill }) {
         <p className="skillCardLoadingText">Loading...</p>
       </div>
       <img
-        src={`./public/assets/${skill}.png`}
+        src={`/assets/${skill}.png`}
         alt={`${skill} logo`}
         onLoad={() => setIsLoading(false)}
         className={isLoading ? "skillCardLoaded" : "skillCardImg"}
