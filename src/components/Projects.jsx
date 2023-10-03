@@ -38,11 +38,15 @@ function Projects() {
 
   return (
     <main>
-      <div>
+      <div className="projectsHeaderContainer">
         <h1>Projects</h1>
         <form>
           <label htmlFor="skills-form">skills: </label>
-          <select id="skills-form" onChange={handleFormChange}>
+          <select
+            id="skills-form"
+            onChange={handleFormChange}
+            defaultValue={searchParams.get("skill") || ""}
+          >
             <option value="">View all</option>
             {skills.map((skill) => {
               return (

@@ -10,6 +10,32 @@
   justify-content: center;
 }
 
+.projectsHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#skills-form {
+  color: #fafaff;
+  background-color: #252526;
+  border: 2px solid #333333;
+  /* border-left: 2px solid #333333;
+  border-right: 2px solid #333333;
+  border-top: none;
+  border-bottom: none; */
+  padding: 0.3em 0.5em;
+  font-size: 18px;
+  font-family: consolas, 'Courier New', monospace;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 550px) {
+  .projectsHeaderContainer {
+    display:block;
+  }
+}
+
 @media only screen and (max-width: 970px) {
   .projectCardsContainer {
     grid-template-columns: calc(70vw + 3em + 10px);
