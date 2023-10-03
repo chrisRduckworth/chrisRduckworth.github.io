@@ -41,4 +41,5 @@ header > h1 {
   box-shadow: 0 0 5px black;
   clip-path: inset(0 0 -5px 0);
   padding: 0.5em 1em;
+  margin: 0;
 }

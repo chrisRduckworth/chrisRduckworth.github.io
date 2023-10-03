@@ -3,7 +3,7 @@
     {
       "title": "BotaniBuddy",
       "images": ["BotaniBuddy1.jpg","BotaniBuddy2.jpg","BotaniBuddy3.jpg"],
-      "skills": ["MongoDB", "Express", "React Native", "Node", "Javascript", "Agile"],
+      "skills": ["MongoDB", "Express", "React Native", "Node", "JavaScript", "Agile"],
       "description": "BotaniBuddy is a mobile app designed to help you look after your houseplants. By using an image-recognition API, it can identify any plant and then add it to your garden. Once there, the app will tell you how often to water your plant, and provide notifications when you need to.\nBotaniBuddy was created as the final project during my Northcoders software development bootcamp. In our group of 6, we used agile methodologies to organise ourselves and used pair programming the entire time. Overall, I'm very proud of how the project came out, and it is a testament to how far I came over just 13 weeks.",
       "links": {
         "Front-End Repo": "https://github.com/rubyrubyruby02/BotaniBuddy-FE",
@@ -13,7 +13,7 @@
     {
       "title": "Northcoders News",
       "images": ["NCNews.png"],
-      "skills": ["PSQL", "Express", "React", "Node", "Javascript"],
+      "skills": ["PSQL", "Express", "React", "Node", "JavaScript", "HTML", "CSS", "Jest"],
       "description": "Northcoders News was developed as part of the Northcoders bootcamp. It is a blogging website where you can see articles written by other users, comment on them, and vote on what you like (or don't like!)\nThis project was coded in two halves, the back-end and then the front-end. Each half was written after completing that section of the course. While the content of the project and the structure of the sprints was already defined, I greatly enjoyed the process of working on a 'proper' project like this. It was very satisfying to see the website slowly come together.\nIf you would like to launch either the back-end of front-end locally, the instructions for setting them up can be found in the readme of the relevant repo.",
       "links": {
         "Live App": "https://crd-northcoders-news.netlify.app/",
