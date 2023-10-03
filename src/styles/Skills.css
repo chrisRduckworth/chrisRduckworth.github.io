@@ -1,0 +1,26 @@
+
+
+.skillsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.skillCardGrid {
+  --width: calc(clamp(6em, 20vw, 12em) + 3em + 10px);
+  display: grid;
+  grid-template-columns: var(--width) var(--width) var(--width);
+  column-gap: 0.5rem;
+}
+
+@media only screen and (max-width: 850px) {
+  .skillsHeader {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .skillCardGrid {
+    grid-template-columns: var(--width) var(--width);
+  }
+}
