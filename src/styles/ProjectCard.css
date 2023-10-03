@@ -37,6 +37,19 @@
   text-overflow: ellipsis;
 }
 
+.projectCardLoading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: clamp(10em, 25vw, 25em);
+  height: 8em;
+  margin: 1em 1em 0;
+}
+
+.projectCardLoaded {
+  display: none;
+}
+
 @media only screen and (max-width: 970px) {
   .projectCard > h2 {
     width: 70vw
