@@ -10,5 +10,13 @@ h1, h2 {
 
 a, a:link, a:visited {
   text-decoration: none;
-  color: #0078d4
+  color: #47AFFF
+}
+
+* {
+  line-height: 1.7;
+}
+
+p {
+  margin: 1em 0;
 }

@@ -5,6 +5,7 @@ html {
 body {
   font-family: consolas, 'Courier New', monospace;
   color: #fafaff;
+  font-size: 18px;
 }
 
 * {
