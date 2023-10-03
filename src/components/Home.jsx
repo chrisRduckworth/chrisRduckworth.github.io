@@ -2,6 +2,7 @@ import { useContext, useEffect } from "react";
 import { HeaderContext } from "../contexts/HeaderContext";
 import { Link } from "react-router-dom";
 import SkillCard from "./SkillCard";
+import ProjectCard from "./ProjectCard";
 import "../styles/Home.css";
 
 function Home() {
@@ -14,8 +15,8 @@ function Home() {
   }, []);
   return (
     <main>
+      <h1>Welcome</h1>
       <section>
-        <h1>Welcome</h1>
         <p>
           My name is Chris Duckworth, and I'm a newly-graduated software/web
           developer. I'm currently looking for work in and around the Cambridge
@@ -54,7 +55,8 @@ function Home() {
           <Link to="/projects">see more {">"}</Link>
         </div>
         <div className="homeSection">
-          
+          <ProjectCard title={"BotaniBuddy"} />
+          <ProjectCard title={"Northcoders News"} />
         </div>
       </section>
     </main>

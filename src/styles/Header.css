@@ -25,6 +25,10 @@ header > h1 {
   background-color: #2d2d2d;
   text-decoration: none;
   border-right: 2px solid #252526;
+  transition: 0.25s ease-out;
+  &:hover {
+    color: #fafaff;
+  }
 }
 
 .activeTab,
