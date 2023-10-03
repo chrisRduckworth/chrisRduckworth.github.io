@@ -1,0 +1,17 @@
+.projectCardsContainer {
+  --width: calc(clamp(10em, 35vw, 25em) + 3em + 10px);
+  display: grid;
+  grid-template-columns: var(--width) var(--width);
+  column-gap: 0.5rem;
+}
+
+.gridContainer {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 970px) {
+  .projectCardsContainer {
+    grid-template-columns: calc(70vw + 3em + 10px);
+  }
+}
