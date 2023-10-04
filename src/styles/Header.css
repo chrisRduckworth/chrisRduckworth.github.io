@@ -9,6 +9,10 @@ header > h1 {
   padding: 0.5em;
 }
 
+.headerTitle:link, .headerTitle:visited {
+  color: #fafaff;
+}
+
 .activeTab,
 .activeTab:link,
 .activeTab:visited {

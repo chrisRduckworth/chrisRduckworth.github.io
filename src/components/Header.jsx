@@ -9,7 +9,9 @@ function Header() {
   return (
     <header>
       <h1>
-        Christopher Duckworth
+        <Link to="/" className="headerTitle">
+          Christopher Duckworth
+        </Link>
       </h1>
       <nav className="headerTabContainer">
         <Link to="/" className={header.tab === "Home" ? "activeTab" : "inactiveTab"}>Home</Link>
