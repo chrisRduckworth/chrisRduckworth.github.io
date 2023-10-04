@@ -10,6 +10,7 @@ import "../styles/Project.css";
 function Project() {
   const { setHeader } = useContext(HeaderContext);
   const { title } = useParams();
+
   const project = projects.find((project) => project.title === title);
 
   useEffect(() => {
@@ -20,6 +21,14 @@ function Project() {
       };
     });
   }, []);
+
+  if (!project)
+    return (
+      <main>
+        <p>Oops, something went wrong</p>
+      </main>
+    );
+
   return (
     <main>
       <h1>{project.title}</h1>
