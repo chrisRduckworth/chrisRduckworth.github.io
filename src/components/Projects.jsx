@@ -61,7 +61,7 @@ function Projects() {
       <div className="gridContainer">
         <div className="projectCardsContainer">
           {projectsToDisplay.map((project) => (
-            <ProjectCard title={project.title} />
+            <ProjectCard title={project.title} key={project.title}/>
           ))}
         </div>
       </div>
