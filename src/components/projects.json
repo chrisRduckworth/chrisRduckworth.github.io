@@ -11,7 +11,7 @@
         "Agile",
         "React Native"
       ],
-      "description": "BotaniBuddy is a mobile app designed to help you look after your houseplants. By using an image-recognition API, it can identify any plant and then add it to your garden. Once there, the app will tell you how often to water your plant, and provide notifications when you need to.\nBotaniBuddy was created as the final project during my Northcoders software development bootcamp. In our group of 6, we used agile methodologies to organise ourselves and used pair programming the entire time. Overall, I'm very proud of how the project came out, and it is a testament to how far I came over just 13 weeks.",
+      "description": "<image0,image1,image2>BotaniBuddy is a mobile app designed to help you look after your houseplants. By using an image-recognition API, it can identify any plant and then add it to your garden. Once there, the app will tell you how often to water your plant, and provide notifications when you need to.\nBotaniBuddy was created as the final project during my time in the Northcoders software development bootcamp. In our group of 6, we used agile methodologies to organise ourselves and used pair programming the entire time. Overall, I'm very proud of how the project came out, and it is a testament to how far I came over just 13 weeks.",
       "links": {
         "Front-End Repo": "https://github.com/rubyrubyruby02/BotaniBuddy-FE",
         "Back-End Repo": "https://github.com/chrisRduckworth/BotaniBuddy-BE"
@@ -30,7 +30,7 @@
         "CSS",
         "Jest"
       ],
-      "description": "Northcoders News was developed as part of the Northcoders bootcamp. It is a blogging website where you can see articles written by other users, comment on them, and vote on what you like (or don't like!)\nThis project was coded in two halves, the back-end and then the front-end. Each half was written after completing that section of the course. While the content of the project and the structure of the sprints was already defined, I greatly enjoyed the process of working on a 'proper' project like this. It was very satisfying to see the website slowly come together.\nIf you would like to launch either the back-end of front-end locally, the instructions for setting them up can be found in the readme of the relevant repo.",
+      "description": "<image0>Northcoders News was developed as part of the Northcoders bootcamp. It is a blogging website where you can see articles written by other users, comment on them, and vote on what you like (or don't like!)\nThis project was coded in two halves, the back-end and then the front-end. Each half was written after completing that section of the course. While the content of the project and the structure of the sprints was already defined, I greatly enjoyed the process of working on a 'proper' project like this. It was very satisfying to see the website slowly come together.\nIf you would like to launch either the back-end of front-end locally, the instructions for setting them up can be found in the readme of the relevant repo.",
       "links": {
         "Live App": "https://crd-northcoders-news.netlify.app/",
         "Front-End Repo": "https://github.com/chrisRduckworth/nc-news",
@@ -41,7 +41,7 @@
       "title": "Portfolio Website",
       "images": ["PortfolioWebsite.png"],
       "skills": ["JavaScript", "Node", "React", "HTML", "CSS"],
-      "description": "This portfolio website was created in the days after completing my software development bootcamp at Northcoders. It is built using React and is fairly simplistic in design, attempting to evoke the feel of VSCode.\nIf you would like, you can go back to the first couple of commits in this website's repo to see my first website, built in the first week of the course. It's quite the change! (Though Cooper is still a cool dude).",
+      "description": "<image0>This portfolio website was created in the days after completing my software development bootcamp at Northcoders. It is built using React and is fairly simplistic in design, attempting to evoke the feel of VSCode.\nIf you would like, you can go back to the first couple of commits in this website's repo to see my first website, built in the first week of the course. It's quite the change! (Though Cooper is still a cool dude).",
       "links": {
         "Repo": "https://github.com/chrisRduckworth/chrisRduckworth.github.io"
       }

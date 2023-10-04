@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { projects } from "./projects.json";
 import "../styles/ProjectCard.css";
 import { useState } from "react";
+import { cleanDescription } from "../../utils/description";
 
 function ProjectCard({ title }) {
   const project = projects.find((project) => project.title === title);
@@ -20,7 +21,7 @@ function ProjectCard({ title }) {
         className={isLoading ? "projectCardLoaded" : "projectCardThumbnail"}
         onLoad={() => setIsLoading(false)}
       />
-      <p>{description}</p>
+      <p>{cleanDescription(description)}</p>
     </Link>
   );
 }
