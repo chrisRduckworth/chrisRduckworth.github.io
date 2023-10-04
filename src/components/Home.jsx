@@ -43,7 +43,7 @@ function Home() {
           <h2>Top Skills</h2>
           <Link to="/skills">see more {">"}</Link>
         </div>
-        <div className="homeSection">
+        <div className="skillsSection">
           <SkillCard skill="JavaScript" />
           <SkillCard skill="React" />
           <SkillCard skill="PSQL" />
