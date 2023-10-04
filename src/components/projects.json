@@ -9,7 +9,8 @@
         "Express",
         "MongoDB",
         "Agile",
-        "React Native"
+        "React Native",
+        "Jest"
       ],
       "description": "<image0,image1,image2>BotaniBuddy is a mobile app designed to help you look after your houseplants. By using an image-recognition API, it can identify any plant and then add it to your garden. Once there, the app will tell you how often to water your plant, and provide notifications when you need to.\nBotaniBuddy was created as the final project during my time in the Northcoders software development bootcamp. In our group of 6, we used agile methodologies to organise ourselves and used pair programming the entire time. Overall, I'm very proud of how the project came out, and it is a testament to how far I came over just 13 weeks.",
       "links": {
