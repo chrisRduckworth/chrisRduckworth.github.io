@@ -43,6 +43,15 @@
       }
     },
     {
+      "title": "Image to ASCII",
+      "images": ["ImageToASCII1.png"],
+      "skills": ["Python"],
+      "description": "Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum",
+      "links": {
+        "Demonstration": "https://www.youtube.com/watch?v=W2yuR-2iDJo&feature=youtu.be"
+      }
+    },
+    {
       "title": "Portfolio Website",
       "images": ["PortfolioWebsite.png"],
       "skills": ["JavaScript", "Node", "React", "HTML", "CSS", "Git", "GitHub"],
