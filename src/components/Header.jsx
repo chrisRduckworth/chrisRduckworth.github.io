@@ -70,9 +70,6 @@ function Header({ theme, setTheme }) {
         </Link>
       </nav>
       <p className="headerURL">{header.url}</p>
-      {/* <button onClick={switchTheme}>
-        swap theme
-      </button> */}
     </header>
   );
 }

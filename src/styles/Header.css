@@ -93,11 +93,3 @@
 .react-toggle-track-x svg {
   scale: 1.3;
 }
-
-@media only screen and (max-width: 350px) {
-  /* .headerTitleContainer {
-    flex-direction: column;
-    justify-content: start;
-    /* align-items: flex-start; */
-  /* }  */
-}
