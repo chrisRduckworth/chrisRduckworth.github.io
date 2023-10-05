@@ -1,8 +1,8 @@
 .projectCard {
-  background-color: #252526;
+  background-color: var(--background-secondary);
   margin: 1em 0.5em;
-  border: 5px solid #333333;
-  transition: 0.25s ease-out;
+  border: 5px solid var(--border);
+  transition: 0.25s border-color ease-out;
   border-radius: 20px 20px;
   &:hover {
     border-color: #0078d4;
@@ -19,7 +19,7 @@
 
 .projectCard:link,
 .projectCard:visited {
-  color: #fafaff;
+  color: var(--text-primary);
 }
 
 .projectCard > h2 {
@@ -52,12 +52,12 @@
 
 @media only screen and (max-width: 970px) {
   .projectCard > h2 {
-    width: 70vw
+    width: 70vw;
   }
   .projectCardThumbnail {
-    width: 70vw
+    width: 70vw;
   }
   .projectCard > p {
-    width: 70vw
+    width: 70vw;
   }
 }

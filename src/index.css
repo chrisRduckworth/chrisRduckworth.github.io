@@ -3,12 +3,37 @@ html {
 }
 
 body {
-  font-family: consolas, 'Courier New', monospace;
-  color: #fafaff;
+  font-family: consolas, "Courier New", monospace;
   font-size: 18px;
+}
+
+.htmlLight {
+  background-color: #f5f5f5;
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+:root {
+  --background: #1e1e1e;
+  --text-primary: #fafaff;
+  --text-secondary: #a9a9a9;
+  --background-secondary: #252526;
+  --border: #333333;
+  --inactive-tab: #2d2d2d;
+  --link: #47afff;
+  --header-shadow: black;
+}
+
+[data-theme="light"] {
+  --background: #f5f5f5;
+  --text-primary: #333333;
+  --text-secondary: #6a6a6a;
+  --background-secondary: #eae2f8;
+  --border: #d4c4ff;
+  --inactive-tab: #efdbf5;
+  --link: #006dc0;
+  --header-shadow: #cfcfcf;
 }

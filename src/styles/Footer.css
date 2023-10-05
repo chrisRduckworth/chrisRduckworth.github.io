@@ -5,9 +5,9 @@ footer {
 
 footer a:link,
 footer a:visited {
-  color: #a9a9a9;
+  color: var(--text-secondary);
   transition: 0.25s ease-out;
   &:hover {
-    color: #fafaff;
+    color: var(--text-primary);
   }
 }

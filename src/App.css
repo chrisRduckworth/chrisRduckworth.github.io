@@ -10,7 +10,7 @@ h1, h2 {
 
 a, a:link, a:visited {
   text-decoration: none;
-  color: #47AFFF
+  color: var(--link)
 }
 
 * {
@@ -19,4 +19,8 @@ a, a:link, a:visited {
 
 p {
   margin: 1em 0;
+}
+
+.app {
+  color: var(--text-primary);
 }

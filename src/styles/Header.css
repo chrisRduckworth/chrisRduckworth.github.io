@@ -1,37 +1,44 @@
 .headerTabContainer {
   display: flex;
-  background-color: #252526;
+  background-color: var(--background-secondary);
   overflow: auto;
 }
 
-header > h1 {
-  background-color: #333333;
+.headerTitleContainer > h1 {
   padding: 0.5em;
 }
 
-.headerTitle:link, .headerTitle:visited {
-  color: #fafaff;
+.headerTitleContainer {
+  background-color: var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTitle:link,
+.headerTitle:visited {
+  color: var(--text-primary);
 }
 
 .activeTab,
 .activeTab:link,
 .activeTab:visited {
-  color: #fafaff;
-  background-color: #1e1e1e;
+  color: var(--text-primary);
+  background-color: var(--background);
   text-decoration: none;
-  border-right: 2px solid #1e1e1e;
+  border-right: 2px solid var(--background);
 }
 
 .inactiveTab,
 .inactiveTab:link,
 .inactiveTab:visited {
-  color: #a9a9a9;
-  background-color: #2d2d2d;
+  color: var(--text-secondary);
+  background-color: var(--inactive-tab);
   text-decoration: none;
-  border-right: 2px solid #252526;
-  transition: 0.25s ease-out;
+  border-right: 2px solid var(--background-secondary);
+  transition: 0.25s color ease-out;
   &:hover {
-    color: #fafaff;
+    color: var(--text-primary);
   }
 }
 
@@ -42,8 +49,55 @@ header > h1 {
 }
 
 .headerURL {
-  box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px var(--header-shadow);
   clip-path: inset(0 0 -5px 0);
   padding: 0.5em 1em;
   margin: 0;
+}
+
+.darkModeToggle.react-toggle .react-toggle-track{
+  background-color: #efe4f3;
+  &:hover {
+    background-color: #d9cfdd;
+  }
+}
+.darkModeToggle.react-toggle--checked .react-toggle-track{
+  background-color: #007fe0;
+  &:hover {
+    background-color: #0063af;
+  }
+}
+
+.react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track {
+  background-color: #d9cfdd;
+}
+
+.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {
+  background-color: #0063af;
+}
+
+.darkModeToggle.react-toggle--checked .react-toggle-thumb {
+  border-color: #4d4d4d;
+}
+
+.darkModeToggle {
+  scale: 1.5;
+  margin-right: 2em;
+}
+
+.react-toggle-track-x, .react-toggle-track-check {
+  display: flex;
+  align-items: center;
+}
+
+.react-toggle-track-x svg {
+  scale: 1.3;
+}
+
+@media only screen and (max-width: 350px) {
+  /* .headerTitleContainer {
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: flex-start; */
+  /* }  */
 }

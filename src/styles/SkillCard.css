@@ -4,11 +4,11 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 5px solid #333333;
+  border: 5px solid var(--border);
   padding-bottom: 1em;
   border-radius: 20px 20px;
-  background-color: #252526;
-  transition: 0.25s ease-out;
+  background-color: var(--background-secondary);
+  transition: 0.25s border-color ease-out;
   &:hover {
     border-color: #0078d4;
   }
@@ -23,7 +23,7 @@
 
 .skillCard:link,
 .skillCard:visited {
-  color: #fafaff;
+  color: var(--text-primary);
 }
 
 .skillCardLoading {
