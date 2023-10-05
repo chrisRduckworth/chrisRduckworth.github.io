@@ -5,7 +5,7 @@ import "../styles/Project.css";
 function ProjectDescription({ description, imagesArr }) {
   const tags = seperateTags(description);
   return (
-    <div>
+    <>
       {tags.map((tag) => {
         if (/<.*>/.test(tag)) {
           const images = tag.match(/image\d+/g);
@@ -34,7 +34,7 @@ function ProjectDescription({ description, imagesArr }) {
           return <p key={tag}>{tag}</p>;
         }
       })}
-    </div>
+    </>
   );
 }
 
