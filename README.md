@@ -1,8 +1,5 @@
-# React + Vite
+# Chris Duckworth Portfolio Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the repo for my portfolio page. The live version is available at [chrisrduckworth.github.io](chrisrduckworth.github.io).
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In an effort to future proof the site, the skill and project elements are rendered programmatically. This is so when I update it I will only need to update `projects.json`.
