@@ -1,5 +1,6 @@
 import { seperateTags } from "../../utils/description";
-import "../styles/Project.css"
+import YouTube from "react-youtube-embed";
+import "../styles/Project.css";
 
 function ProjectDescription({ description, imagesArr }) {
   const tags = seperateTags(description);
@@ -23,6 +24,11 @@ function ProjectDescription({ description, imagesArr }) {
                 })}
               </div>
             );
+          }
+          const video = tag.match(/^<video:.*/g);
+          if (video) {
+            const url = video[0].slice(7, video[0].length - 1);
+            return <YouTube key={url} id={url} />;
           }
         } else {
           return <p key={tag}>{tag}</p>;

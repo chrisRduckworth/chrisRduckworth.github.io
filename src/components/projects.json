@@ -46,10 +46,8 @@
       "title": "Image to ASCII",
       "images": ["ImageToASCII1.png"],
       "skills": ["Python"],
-      "description": "Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum",
-      "links": {
-        "Demonstration": "https://www.youtube.com/watch?v=W2yuR-2iDJo&feature=youtu.be"
-      }
+      "description": "<image0>After finishing my degree, I spent some of my free time learning python using an online course. It was very rewarding, and afterwards I created this project. It takes an image and will return a string of characters which best match the image, so that it can be represented in text. In addition, you can choose which font to use and whether to enable edge detection, as well as the ability to convert whole videos frame by frame. For a demonstration, see the link below.<video:W2yuR-2iDJo>I'm very proud of this result as it was my first proper programming project. That being said, it's far from perfect. The code is sloppily written, and it executes much too slowly (the demonstration video took the best part of 24 hours to render!) This is due to my approach - the program analyzes every letter-sized chunk of pixels and compares it to every possible character.\nAs my skills progress, I plan on revisiting this. I'd like to write it more professionally (and with proper version control), and make the whole program more efficient.",
+      "links": {}
     },
     {
       "title": "Portfolio Website",

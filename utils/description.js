@@ -1,5 +1,5 @@
 export function cleanDescription(description) {
-  const noArrows = description.replace(/<.*>/g, "");
+  const noArrows = description.replace(/<[\w,]*>/g, "");
   const noNewLines = noArrows.replaceAll("\n", " ");
   return noNewLines;
 }
