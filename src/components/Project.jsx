@@ -14,6 +14,7 @@ function Project() {
   const project = projects.find((project) => project.title === title);
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     setHeader((currHeader) => {
       return {
         tab: "Projects",

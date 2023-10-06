@@ -12,6 +12,7 @@ function Skills() {
     .filter((skill, i, arr) => arr.indexOf(skill) === i);
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     setHeader((currHeader) => {
       return { tab: "Skills", url: "chrisDuckworth > skills.html" };
     });

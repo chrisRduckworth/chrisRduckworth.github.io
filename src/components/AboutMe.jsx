@@ -7,6 +7,7 @@ function AboutMe() {
   const { setHeader } = useContext(HeaderContext);
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     setHeader((currHeader) => {
       return { tab: "About Me", url: "chrisDuckworth > aboutMe.html" };
     });

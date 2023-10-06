@@ -9,6 +9,7 @@ function Home() {
   const { setHeader } = useContext(HeaderContext);
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     setHeader((currHeader) => {
       return { tab: "Home", url: "chrisDuckworth > home.html" };
     });
