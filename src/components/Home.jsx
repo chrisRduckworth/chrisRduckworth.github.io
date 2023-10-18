@@ -1,6 +1,7 @@
 import { useContext, useEffect } from "react";
 import { HeaderContext } from "../contexts/HeaderContext";
 import { Link } from "react-router-dom";
+import { projects } from "./projects.json"
 import SkillCard from "./SkillCard";
 import ProjectCard from "./ProjectCard";
 import "../styles/Home.css";
@@ -56,8 +57,8 @@ function Home() {
           <Link to="/projects">see more {">"}</Link>
         </div>
         <div className="homeSection">
-          <ProjectCard title={"BotaniBuddy"} />
-          <ProjectCard title={"Northcoders News"} />
+          <ProjectCard title={projects[0].title} />
+          <ProjectCard title={projects[1].title} />
         </div>
       </section>
     </main>
