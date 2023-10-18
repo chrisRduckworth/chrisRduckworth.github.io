@@ -1,6 +1,27 @@
 {
   "projects": [
     {
+      "title": "Find That Film",
+      "images": ["FindThatFilm.png"],
+      "skills": [
+        "JavaScript",
+        "Testing Library",
+        "Jest",
+        "Bootstrap",
+        "MSW",
+        "Git",
+        "GitHub",
+        "Node",
+        "Express"
+      ],
+      "description": "<image0>Find That Film is a website to help you find the name of a film when you can only remember some of the actors, the director, or the genre.\nThis was my first project (besides this portfolio website) written after finishing the Northcoders bootcamp. It was a great opportunity for me to exercise what I had learnt on a website that I wanted to make. It was also a chance to try out a few new things - most importantly the react testing library. It's an incredibly powerful tool, and the ability to use test-driven-development on frontend felt like a big step foward.\nI also used bootstrap for the styling - this might be a bit generic, but my strength is not in design. Bootstrap gave my the chance to make the website look professional and complete without having to dive too deep into creating complex designs.",
+      "links": {
+        "Live App": "https://find-that-film.netlify.app/",
+        "Front-End Repo": "https://github.com/chrisRduckworth/find-that-film",
+        "Back-End Repo": "https://github.com/chrisRduckworth/Find-That-Film-Backend"
+      }
+    },
+    {
       "title": "BotaniBuddy",
       "images": ["BotaniBuddy1.jpg", "BotaniBuddy2.jpg", "BotaniBuddy3.jpg"],
       "skills": [
