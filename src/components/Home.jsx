@@ -49,6 +49,8 @@ function Home() {
           <SkillCard skill="JavaScript" />
           <SkillCard skill="React" />
           <SkillCard skill="PSQL" />
+          <SkillCard skill="Python" />
+          <SkillCard skill="Jest" />
         </div>
       </section>
       <section>
