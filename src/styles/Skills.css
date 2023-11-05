@@ -5,9 +5,9 @@
 }
 
 .skillCardGrid {
-  --width: calc(clamp(6em, 20vw, 12em) + 3em + 10px);
+  --width: calc(clamp(4em, 10vw, 8em) + 3em + 10px);
   display: grid;
-  grid-template-columns: var(--width) var(--width) var(--width);
+  grid-template-columns: var(--width) var(--width) var(--width) var(--width) var(--width);
   column-gap: 0.5rem;
 }
 
@@ -17,7 +17,19 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 750px) {
+  .skillCardGrid {
+    grid-template-columns: var(--width) var(--width) var(--width) var(--width);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skillCardGrid {
+    grid-template-columns: var(--width) var(--width) var(--width); 
+  }
+}
+
+@media only screen and (max-width: 430px) {
   .skillCardGrid {
     grid-template-columns: var(--width) var(--width);
   }
