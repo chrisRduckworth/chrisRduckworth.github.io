@@ -1,17 +1,3 @@
-.projectSkillsContaner {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.projectSkillsContaner a {
-  max-width: 10em;
-}
-
-.projectSkillsContaner img {
-  max-width: 8em;
-}
-
 .projectLinks {
   list-style: none;
   margin-left: 1em;
@@ -29,17 +15,4 @@
   min-width: 15em;
   max-height: 30em;
   margin: 1em;
-}
-
-@media only screen and (max-width: 382px) {
-  .projectSkillsContaner a {
-    min-width: 60vw;
-  }
-  .projectSkillsContaner img {
-    min-width: 50vw;
-  }
-  .projectSkillsContaner .skillCardLoading {
-    min-width: 50vw;
-    min-height: 50vw;
-  }
 }
