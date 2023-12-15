@@ -1,83 +1,92 @@
 {
-  "projects": [
-    {
-      "title": "Find That Film",
-      "images": ["FindThatFilm.png"],
-      "skills": [
-        "JavaScript",
-        "Testing Library",
-        "Jest",
-        "Bootstrap",
-        "MSW",
-        "Git",
-        "GitHub",
-        "Node",
-        "Express"
-      ],
-      "description": "<image0>Find That Film is a website to help you find the name of a film when you can only remember some of the actors, the director, or the genre.\nThis was my first project (besides this portfolio website) written after finishing the Northcoders bootcamp. It was a great opportunity for me to exercise what I had learnt on a website that I wanted to make. It was also a chance to try out a few new things - most importantly the react testing library. It's an incredibly powerful tool, and the ability to use test-driven-development on frontend felt like a big step foward.\nI also used bootstrap for the styling - this might be a bit generic, but my strength is not in design. Bootstrap gave my the chance to make the website look professional and complete without having to dive too deep into creating complex designs.",
-      "links": {
-        "Live App": "https://find-that-film.netlify.app/",
-        "Front-End Repo": "https://github.com/chrisRduckworth/find-that-film",
-        "Back-End Repo": "https://github.com/chrisRduckworth/Find-That-Film-Backend"
-      }
-    },
-    {
-      "title": "BotaniBuddy",
-      "images": ["BotaniBuddy1.jpg", "BotaniBuddy2.jpg", "BotaniBuddy3.jpg"],
-      "skills": [
-        "JavaScript",
-        "Node",
-        "Express",
-        "MongoDB",
-        "Agile",
-        "React Native",
-        "Jest",
-        "Git",
-        "GitHub"
-      ],
-      "description": "<image0,image1,image2>BotaniBuddy is a mobile app designed to help you look after your houseplants. By using an image-recognition API, it can identify any plant and then add it to your garden. Once there, the app will tell you how often to water your plant, and provide notifications when you need to.\nBotaniBuddy was created as the final project during my time in the Northcoders software development bootcamp. In our group of 6, we used agile methodologies to organise ourselves and used pair programming the entire time. Overall, I'm very proud of how the project came out, and it is a testament to how far I came over just 13 weeks.",
-      "links": {
-        "Front-End Repo": "https://github.com/rubyrubyruby02/BotaniBuddy-FE",
-        "Back-End Repo": "https://github.com/chrisRduckworth/BotaniBuddy-BE"
-      }
-    },
-    {
-      "title": "Northcoders News",
-      "images": ["NCNews.png"],
-      "skills": [
-        "PSQL",
-        "Express",
-        "React",
-        "Node",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Jest",
-        "Git",
-        "GitHub"
-      ],
-      "description": "<image0>Northcoders News was developed as part of the Northcoders bootcamp. It is a blogging website where you can see articles written by other users, comment on them, and vote on what you like (or don't like!)\nThis project was coded in two halves, the back-end and then the front-end. Each half was written after completing that section of the course. While the content of the project and the structure of the sprints was already defined, I greatly enjoyed the process of working on a 'proper' project like this. It was very satisfying to see the website slowly come together.\nIf you would like to launch either the back-end of front-end locally, the instructions for setting them up can be found in the readme of the relevant repo.",
-      "links": {
-        "Live App": "https://crd-northcoders-news.netlify.app/",
-        "Front-End Repo": "https://github.com/chrisRduckworth/nc-news",
-        "Back-End Repo": "https://github.com/chrisRduckworth/chris-nc-news"
-      }
-    },
-    {
-      "title": "Image to ASCII",
-      "images": ["ImageToASCII1.png"],
-      "skills": ["Python"],
-      "description": "<image0>After finishing my degree, I spent some of my free time learning python using an online course. It was very rewarding, and afterwards I created this project. It takes an image and will return a string of characters which best match the image, so that it can be represented in text. In addition, you can choose which font to use and whether to enable edge detection, as well as the ability to convert whole videos frame by frame. For a demonstration, see the link below.<video:W2yuR-2iDJo>I'm very proud of this result as it was my first proper programming project. That being said, it's far from perfect. The code is sloppily written, and it executes much too slowly (the demonstration video took the best part of 24 hours to render!) This is due to my approach - the program analyzes every letter-sized chunk of pixels and compares it to every possible character.\nAs my skills progress, I plan on revisiting this. I'd like to write it more professionally (and with proper version control), and make the whole program more efficient.",
-      "links": {}
-    },
-    {
-      "title": "Portfolio Website",
-      "images": ["PortfolioWebsite.png"],
-      "skills": ["JavaScript", "Node", "React", "HTML", "CSS", "Git", "GitHub"],
-      "description": "<image0>This portfolio website was created in the days after completing my software development bootcamp at Northcoders. It is built using React and is fairly simplistic in design, attempting to evoke the feel of VSCode.\nIf you would like, you can go back to the first couple of commits in this website's repo to see my first website, built in the first week of the course. It's quite the change! (Though Cooper is still a cool dude).",
-      "links": {
-        "Repo": "https://github.com/chrisRduckworth/chrisRduckworth.github.io"
-      }
-    }
-  ]
+	"projects": [
+		{
+			"title": "Image to ASCII v2",
+			"images": ["ImageToASCIIv21.PNG", "ImageToASCIIv22.PNG"],
+			"skills": ["Python", "Pytest", "NumPy", "Git", "GitHub"],
+			"description": "<image0,image1>I decided after finishing the Northcoders bootcamp that I'd like to revisit an old project - a program that converts an image to an ASCII string. My main objective was to clean up the old code, be thorough with test-driven-development, and make it a bit more efficient.\nMy main plan to make it more efficient was to make significantly more use of the NumPy Python package. NumPy is written in C, so it runs much faster than the equivalent code in Python. However, while I did convert a lot of the code over (the most important part being my compare_array function, which now uses NOT XOR instead of nested for loops), it doesn't run that much faster. I think that to get it more efficient would require a significantly redesign of the code, and I have other project ideas I'm more interested in pursuing right now.",
+			"links": {
+				"Repo": "https://github.com/chrisRduckworth/Image-To-ASCII"
+			}
+		},
+		{
+			"title": "Find That Film",
+			"images": ["FindThatFilm.png"],
+			"skills": [
+				"JavaScript",
+				"Testing Library",
+				"Jest",
+				"Bootstrap",
+				"MSW",
+				"Git",
+				"GitHub",
+				"Node",
+				"Express"
+			],
+			"description": "<image0>Find That Film is a website to help you find the name of a film when you can only remember some of the actors, the director, or the genre.\nThis was my first project (besides this portfolio website) written after finishing the Northcoders bootcamp. It was a great opportunity for me to exercise what I had learnt on a website that I wanted to make. It was also a chance to try out a few new things - most importantly the react testing library. It's an incredibly powerful tool, and the ability to use test-driven-development on frontend felt like a big step foward.\nI also used bootstrap for the styling - this might be a bit generic, but my strength is not in design. Bootstrap gave my the chance to make the website look professional and complete without having to dive too deep into creating complex designs.",
+			"links": {
+				"Live App": "https://find-that-film.netlify.app/",
+				"Front-End Repo": "https://github.com/chrisRduckworth/find-that-film",
+				"Back-End Repo": "https://github.com/chrisRduckworth/Find-That-Film-Backend"
+			}
+		},
+		{
+			"title": "BotaniBuddy",
+			"images": ["BotaniBuddy1.jpg", "BotaniBuddy2.jpg", "BotaniBuddy3.jpg"],
+			"skills": [
+				"JavaScript",
+				"Node",
+				"Express",
+				"MongoDB",
+				"Agile",
+				"React Native",
+				"Jest",
+				"Git",
+				"GitHub"
+			],
+			"description": "<image0,image1,image2>BotaniBuddy is a mobile app designed to help you look after your houseplants. By using an image-recognition API, it can identify any plant and then add it to your garden. Once there, the app will tell you how often to water your plant, and provide notifications when you need to.\nBotaniBuddy was created as the final project during my time in the Northcoders software development bootcamp. In our group of 6, we used agile methodologies to organise ourselves and used pair programming the entire time. Overall, I'm very proud of how the project came out, and it is a testament to how far I came over just 13 weeks.",
+			"links": {
+				"Front-End Repo": "https://github.com/rubyrubyruby02/BotaniBuddy-FE",
+				"Back-End Repo": "https://github.com/chrisRduckworth/BotaniBuddy-BE"
+			}
+		},
+		{
+			"title": "Northcoders News",
+			"images": ["NCNews.png"],
+			"skills": [
+				"PSQL",
+				"Express",
+				"React",
+				"Node",
+				"JavaScript",
+				"HTML",
+				"CSS",
+				"Jest",
+				"Git",
+				"GitHub"
+			],
+			"description": "<image0>Northcoders News was developed as part of the Northcoders bootcamp. It is a blogging website where you can see articles written by other users, comment on them, and vote on what you like (or don't like!)\nThis project was coded in two halves, the back-end and then the front-end. Each half was written after completing that section of the course. While the content of the project and the structure of the sprints was already defined, I greatly enjoyed the process of working on a 'proper' project like this. It was very satisfying to see the website slowly come together.\nIf you would like to launch either the back-end of front-end locally, the instructions for setting them up can be found in the readme of the relevant repo.",
+			"links": {
+				"Live App": "https://crd-northcoders-news.netlify.app/",
+				"Front-End Repo": "https://github.com/chrisRduckworth/nc-news",
+				"Back-End Repo": "https://github.com/chrisRduckworth/chris-nc-news"
+			}
+		},
+		{
+			"title": "Image to ASCII",
+			"images": ["ImageToASCII1.png"],
+			"skills": ["Python"],
+			"description": "<image0>After finishing my degree, I spent some of my free time learning python using an online course. It was very rewarding, and afterwards I created this project. It takes an image and will return a string of characters which best match the image, so that it can be represented in text. In addition, you can choose which font to use and whether to enable edge detection, as well as the ability to convert whole videos frame by frame. For a demonstration, see the link below.<video:W2yuR-2iDJo>I'm very proud of this result as it was my first proper programming project. That being said, it's far from perfect. The code is sloppily written, and it executes much too slowly (the demonstration video took the best part of 24 hours to render!) This is due to my approach - the program analyzes every letter-sized chunk of pixels and compares it to every possible character.\nAs my skills progress, I plan on revisiting this. I'd like to write it more professionally (and with proper version control), and make the whole program more efficient.",
+			"links": {}
+		},
+		{
+			"title": "Portfolio Website",
+			"images": ["PortfolioWebsite.png"],
+			"skills": ["JavaScript", "Node", "React", "HTML", "CSS", "Git", "GitHub"],
+			"description": "<image0>This portfolio website was created in the days after completing my software development bootcamp at Northcoders. It is built using React and is fairly simplistic in design, attempting to evoke the feel of VSCode.\nIf you would like, you can go back to the first couple of commits in this website's repo to see my first website, built in the first week of the course. It's quite the change! (Though Cooper is still a cool dude).",
+			"links": {
+				"Repo": "https://github.com/chrisRduckworth/chrisRduckworth.github.io"
+			}
+		}
+	]
 }
