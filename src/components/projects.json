@@ -1,5 +1,13 @@
 {
 	"projects": [
+		{"title": "Advent of Code 2023",
+			"images": ["AdventofCode.PNG"],
+			"skills": ["Python", "Pytest", "Git", "GitHub"],
+			"description": "<image0>Advent of Code is a yearly programming challenge where each day of advent a new problem is posted, with each problem being split into two parts. This was my first year participating, and I had originally aimed to get to day 10. While I failed on the second part of day 12, I continued solving problems until day 23, and ended up with 42 out of a possible 50 stars.\nI learnt an incredible amount solving these challenges. Perhaps the most important thing was the necessity of considering time complexity - some of the problems would have taken over 50 years to solve using brute force, so coming up with a clever solution is a vital.\nThe solution I am most pleased with is day 21. By getting out a pen and paper, I was able to derive a mathematical formula to solve the problem with only minimal changes to my code.",
+			"links": {
+				"Repo": "https://github.com/chrisRduckworth/Advent-of-Code"
+			}
+		},
 		{
 			"title": "Image to ASCII v2",
 			"images": ["ImageToASCIIv21.PNG", "ImageToASCIIv22.PNG"],
