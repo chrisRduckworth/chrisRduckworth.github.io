@@ -2,4 +2,4 @@
 
 This is the repo for my portfolio page. The live version is available at [chrisrduckworth.github.io](chrisrduckworth.github.io).
 
-In an effort to future proof the site, the skill and project elements are rendered programmatically. This is so when I update it I will only need to update `projects.json`.
+In order to make updating my skills and projects easily, they are generated programatically from `projects.json`. The components which do this are `Skills.jsx` and `Project.jsx`. This is the part of the site I'm most pleased with.
